@@ -1,0 +1,36 @@
+{
+  "name": "gapl",
+  "version": "0.1.0",
+  "description": "Github automatic pull request link",
+  "repository": "remirobichet/gapl",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "gapl": "./dist/cli.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "gapl": "jiti ./src/cli.ts",
+    "lint": "eslint . && prettier -c src test",
+    "lint:fix": "eslint . --fix && prettier -w src test",
+    "prepack": "unbuild",
+    "release": "changelogen --release && npm publish && git push --follow-tags"
+  },
+  "dependencies": {
+    "citty": "^0.1.6",
+    "consola": "^3.4.0"
+  },
+  "devDependencies": {
+    "changelogen": "^0.5.7",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.21.0",
+    "jiti": "^2.4.2",
+    "prettier": "^3.5.2",
+    "typescript": "^5.7.3",
+    "unbuild": "^3.3.1"
+  },
+  "packageManager": "pnpm@10.4.1"
+}
