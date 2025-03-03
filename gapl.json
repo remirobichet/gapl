@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://github.com/remirobichet/gapl",
+  "destinationBranch": "release",
+  "assigneesOptions": [
+    "remirobichet",
+    "johndoe",
+    "janedoe"
+  ]
+}
