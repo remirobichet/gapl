@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v0.1.2
+
+[compare changes](https://github.com/remirobichet/gapl/compare/v0.1.1...v0.1.2)
+
+### 🚀 Enhancements
+
+- Add npm version badge to README.md ([2892aef](https://github.com/remirobichet/gapl/commit/2892aef))
+- Implement gapl command ([fec20ab](https://github.com/remirobichet/gapl/commit/fec20ab))
+- Add release scripts for patch, minor, and major versions ([4f3e2a9](https://github.com/remirobichet/gapl/commit/4f3e2a9))
+
+### ❤️ Contributors
+
+- Rémi Robichet ([@remirobichet](http://github.com/remirobichet))
+
 ## v0.1.1
 
 

@@ -1,6 +1,6 @@
 {
   "name": "gapl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "📬 Github automatic pull request link",
   "repository": "remirobichet/gapl",
   "license": "MIT",
