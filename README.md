@@ -1,3 +1,10 @@
+<div align="center">
+  <picture>
+    <img alt="Novu Logo" src="./public/cover.jpg" width="380"/>
+  </picture>
+  </a>
+</div>
+
 # gapl
 
 <!-- automd:badges color=yellow bundlephobia -->
@@ -6,4 +13,12 @@
 
 > 📬 Github automatic pull request link
 
-@TODO
+## Usage (CLI)
+
+```sh
+npx gapl
+
+pnpx gapl
+
+bunx gapl
+```
